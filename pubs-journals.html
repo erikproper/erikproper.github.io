@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Henderik A. Proper</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family: Helvetica, Arial, sans-serif}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .dropbtn-active {
+  font-size: 17px;    
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn-active {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown .dropbtn-active {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" target="_new">Hend<i>erik</i> Alex Proper</a>
+  <a href="index.html">Welcome</a>
+  <a href="about.html">About</a>
+  <a href="https://orcid.org/0000-0002-7318-2496" target="_new"><span style=font-size:14px>ORC</span><span style=color:#A5CD39>i<span style=font-size:14px>D</span></span></a>
+  <a href="contact.html">Contact</a>
+  <a href="http://downloads.erikproper.eu/cv.pdf" target="_new">CV</a>
+  <div class="dropdown">
+    <button class="dropbtn-active">
+      Publications <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="pubs-books.html">Books</a>
+    <a href="pubs-edited-books.html">Edited Books</a>
+    <a href="pubs-chapters.html">Chapter in Books</a>
+    <a href="pubs-journals.html">Journal Publications</a>
+    <a href="pubs-conferences.html">Conference Publications</a>
+    <a href="pubs-reports.html">Technical Reports</a>
+    <a href="pubs-industrial.html">Industrial Publications</a>
+    <a href="pubs-educational.html">Educational Publications</a>
+    </div>
+  </div>
+  <a href="presentations.html">Presentations</a>
+  <a href="http://epx.erikproper.eu" target="_new">Photography</a>
+  <a href="sports.html">Sports</a>
+  <a href="http://erikproper.blogspot.com" target="_new">Blog</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px; line-height:1.4">
+  <h2>Journal Publications</h2>
+  <ul>
+    <li>
+      M. A. T. Mulder and H. A. Proper. On Enterprise-Grade Tool Support for DEMO. <i>Software and Systems Modeling</i>, 2021. <a href='http://dx.doi.org/10.1007/s10270-021-00911-z' target='_new'>doi:10.1007/s10270-021-00911-z</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/mulder2021demotooling.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/mulder2021demotooling.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and M. Bjekovi&#263;. Fundamental challenges in systems modelling. <i>EMISA Forum</i>, 39(1):13-28, 2019.
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/proper2019challenges.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/proper2019challenges.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      A. Nakakawa, P. van Bommel, H. A. Proper, and J. B. F. Mulder. A situational method for creating shared understanding on requirements for an enterprise architecture. <i>International Journal of Cooperative Information Systems</i>, 27(4):1850010, 2018. <a href='http://dx.doi.org/10.1142/S0218843018500107' target='_new'>doi:10.1142/S0218843018500107</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/nakakawa2018caeda.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/nakakawa2018caeda.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      R. Magalh&atilde;es and H. A. Proper. Model-enabled Design and Engineering of Organisations. <i>Organisational Design and Enterprise Engineeering</i>, 1(1):1-12, 2017. <a href='http://dx.doi.org/10.1007/s41251-016-0005-9' target='_new'>doi:10.1007/s41251-016-0005-9</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/magalhaes2017modeldriven.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/magalhaes2017modeldriven.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      Z. Zarwin, M. Bjekovi&#263;, J.-M. Favre, J.-S. Sottet, and H. A. Proper. Natural modelling. <i>Journal Of Object Technology</i>, 13(3):4: 1-36, July 2014. <a href='http://dx.doi.org/10.5381/jot.2014.13.3.a4' target='_new'>doi:10.5381/jot.2014.13.3.a4</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/zarwin2014naturalmodelling.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/zarwin2014naturalmodelling.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      D. J. T. van der Linden, S. J. B. A. Hoppenbrouwers, and H. A. Proper. On the identification of modeler communities. <i>International Journal of Information Systems Modeling and Design</i>, pages 22-40, 2014. <a href='http://dx.doi.org/10.4018/ijismd.2014040102' target='_new'>doi:10.4018/ijismd.2014040102</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/vanderlinden2014modelingcommunities.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/vanderlinden2014modelingcommunities.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. de Kinderen, K. Gaaloul, and H. A. Proper. Bridging value modelling to ArchiMate via transaction modelling. <i>Software &amp; Systems Modeling</i>, 13(3):1043-1057, 2014. ISSN: 1619-1366 <a href='http://dx.doi.org/10.1007/s10270-012-0299-z' target='_new'>doi:10.1007/s10270-012-0299-z</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/dekinderen2014e3valuedemoarchimate.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/dekinderen2014e3valuedemoarchimate.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      G. Plataniotis, S. de Kinderen, and H. A. Proper. EA anamnesis: An approach for decision making analysis in enterprise architecture. <i>International Journal of Information System Modeling and Design</i>, 5(3):75-95, 2014. ISSN: 1947-8186 <a href='http://dx.doi.org/10.4018/ijismd.2014070104' target='_new'>doi:10.4018/ijismd.2014070104</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/plataniotis2014decisionmaking.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/plataniotis2014decisionmaking.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      D. Greefhorst, H. A. Proper, and G. Plataniotis. The Dutch State of the Practice of Architecture Principles. <i>Journal of Enterprise Architecture</i>, 9(4):20-25, November 2013.
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/greefhorst2013principles.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/greefhorst2013principles.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      J. L. G. Dietz, J. A. P. Hoogervorst, A. Albani, D. Aveiro, E. Babkin, J. Barjis, A. Caetano, P. Huysmans, J. Iijima, S. J. H. van Kervel, H. Mulder, M. Op 't Land, H. A. Proper, J. Sanz, L. Terlouw, J. M. Tribolet, J. Verelst, and R. Winter. The discipline of enterprise engineering. <i>International Journal Organisational Design and Engineering</i>, 3(1):86-114, 2013.
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/dietz2013enterpriseengineering.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/dietz2013enterpriseengineering.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and M. M. Lankhorst. Enterprise Architecture - Towards essential sensemaking. <i>Enterprise Modelling and Information Systems Architectures</i>, 9(1):5-21, June 2014. <a href='http://dx.doi.org/10.18417/emisa.9.1.1' target='_new'>doi:10.18417/emisa.9.1.1</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/proper2013enterprisearchitecture.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/proper2013enterprisearchitecture.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      F. P. Tulinayo, P. van Bommel, and H. A. Proper. Enhancing the system dynamics modeling process with a domain modeling method. <i>International Journal of Cooperative Information Systems</i>, 22(2), 2013. <a href='http://dx.doi.org/10.1142/S0218843013500111' target='_new'>doi:10.1142/S0218843013500111</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/tulinayo2013enhancing.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/tulinayo2013enhancing.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      A. Nakakawa, P. van Bommel, and H. A. Proper. Supplementing enterprise architecture approaches with support for executing collaborative tasks - a case of TOGAF ADM. <i>International Journal of Cooperative Information Systems</i>, 22(2):1350007, June 2013. <a href='http://dx.doi.org/10.1142/S021884301350007X' target='_new'>doi:10.1142/S021884301350007X</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/nakakawa2012togaf.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/nakakawa2012togaf.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      F. P. Tulinayo, P. van Bommel, and H. A. Proper. From a system dynamics causal loop diagram to an object-role model: A stepwise approach. <i>Journal of Digital Information Management</i>, 10(3):174-186, 2012. <a href='http://dline.info/fpaper/jdim/v10i3/3.pdf' target='_new'>http://dline.info/fpaper/jdim/v10i3/3.pdf</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/tulinayo2012sd2orm.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/tulinayo2012sd2orm.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      D. Ssebuggwawo, S. J. B. A. Hoppenbrouwers, and H. A. Proper. Applying AHP for collaborative modeling evaluation: Experiences from a modeling experiment. <i>International Journal of Information Systems Modeling and Design</i>, 4(1):1-24, 2013. <a href='http://dx.doi.org/10.4018/jismd.2013010101' target='_new'>doi:10.4018/jismd.2013010101</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/ssebuggwawo2012ahpapplied.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/ssebuggwawo2012ahpapplied.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and D. Greefhorst. Principles in an Enterprise Architecture Context. <i>Journal of Enterprise Architecture</i>, pages 8-16, February 2011.
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/proper2011principles.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/proper2011principles.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      A. Nakakawa, P. van Bommel, and H. A. Proper. Definition and validation of requirements for collaborative decision-making in enterprise architecture creation. <i>International Journal of Cooperative Information Systems</i>, 20(1):83-136, 2011. <a href='http://dx.doi.org/10.1142/S021884301100216X' target='_new'>doi:10.1142/S021884301100216X</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/nakakawa2011caeda.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/nakakawa2011caeda.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      D. Ssebuggwawo, S. J. B. A. Hoppenbrouwers, and H. A. Proper. Collaborative Modeling: Towards a Meta-model for Analysis and Evaluation. <i>Sprouts: Working Papers on Information Systems</i>, 10(36), 2010. ISSN: 1535-6078 <a href='https://aisel.aisnet.org/sprouts_all/356' target='_new'>https://aisel.aisnet.org/sprouts_all/356</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/ssebuggwawo2010metamodel.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/ssebuggwawo2010metamodel.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. Overbeek, P. van Bommel, and H. A. Proper. Statics and dynamics of cognitive and qualitative matchmaking in task fulfillment. <i>Information Sciences</i>, 181(1):129-149, January 2011. ISSN: 0020-0255 <a href='http://dx.doi.org/10.1016/j.ins.2010.09.002' target='_new'>doi:10.1016/j.ins.2010.09.002</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/overbeek2010matchmaking.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/overbeek2010matchmaking.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      K. Gaaloul, H. A. Proper, E. Zahoor, F. Charoy, and C. Godart. A logical framework for reasoning about delegation policies in workflow management systems. <i>International Journal of Information and Computer Security</i>, 4(4):365-388, 2011. <a href='http://dx.doi.org/10.1504/IJICS.2011.044825' target='_new'>doi:10.1504/IJICS.2011.044825</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/gaaloul2010delegationpolicies.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/gaaloul2010delegationpolicies.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      M. M. Lankhorst, H. A. Proper, and H. Jonkers. The anatomy of the ArchiMate language. <i>International Journal of Information System Modeling and Design</i>, 1(1):1-32, 2010. <a href='http://dx.doi.org/10.4018/jismd.2010092301' target='_new'>doi:10.4018/jismd.2010092301</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/jonkers2009archimate.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/jonkers2009archimate.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. Overbeek, P. van Bommel, and H. A. Proper. Bridging Supply and Demand for Knowledge Intensive Tasks. <i>Information Sciences</i>, 181(1):129-149, January 2011. <a href='http://dx.doi.org/10.1016/j.ins.2010.09.002' target='_new'>doi:10.1016/j.ins.2010.09.002</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/overbeek2008knowledgedemand.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/overbeek2008knowledgedemand.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. Overbeek, P. van Bommel, and H. A. Proper. Embedding knowledge exchange and cognitive matchmaking in a dichotomy of markets. <i>Expert Systems with Applications</i>, (36):12236-12255, 2009. <a href='http://dx.doi.org/10.1016/j.eswa.2009.04.071' target='_new'>doi:10.1016/j.eswa.2009.04.071</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/overbeek2008embeddingknowledge.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/overbeek2008embeddingknowledge.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      J. Nabukenya, P. van Bommel, H. A. Proper, and G. J. de Vreede. An Evaluation Instrument for Collaborative Processes: Application to Organizational Policy-Making . <i>Group Decision and Negotiation</i>, 20(4):465-488, 2011. <a href='http://dx.doi.org/10.1007/s10726-009-9177-7' target='_new'>doi:10.1007/s10726-009-9177-7</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/nabukenya2007collaborationevaluation.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/nabukenya2007collaborationevaluation.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. Overbeek, P. van Bommel, and H. A. Proper. Matching cognitive characteristics of actors and tasks in information systems engineering. <i>Knowledge-Based Systems</i>, 21(8):764-785, December 2008. <a href='http://dx.doi.org/10.1016/j.knosys.2008.03.032' target='_new'>doi:10.1016/j.knosys.2008.03.032</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/overbeek2007cognitiveengineering.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/overbeek2007cognitiveengineering.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      F. Arbab, F. S. de Boer, M. Bonsangue, M. M. Lankhorst, H. A. Proper, and L. van der Torre. Integrating architectural models - symbolic, semantic and subjective models in enterprise architecture. <i>Enterprise Modelling and Information Systems Architectures</i>, 2(1):40-57, 2007. <a href='http://dx.doi.org/10.18417/emisa.2.1.4' target='_new'>doi:10.18417/emisa.2.1.4</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/arbab2006architecturalmodels.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/arbab2006architecturalmodels.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      P. van Bommel, B. van Gils, H. A. Proper, M. van Vliet, and Th. P. van der Weide. Value and the information market. <i>Data &amp; Knowledge Engineering</i>, 61(1):153-175, 2007. <a href='http://dx.doi.org/10.1016/j.datak.2006.05.002' target='_new'>doi:10.1016/j.datak.2006.05.002</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/vangils2005valueinformationmarket.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/vangils2005valueinformationmarket.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      B. van Gils, H. A. Proper, P. van Bommel, and Th. P. van der Weide. Typing and transformational effects in complex information supply. <i>International Journal of Cooperative Information Systems</i>, 16(2):229-269, June 2007. <a href='http://dx.doi.org/10.1142/S0218843007001639' target='_new'>doi:10.1142/S0218843007001639</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/vangils2005transformation.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/vangils2005transformation.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      P. van Bommel, H. A. Proper, and Th. P. van der Weide. Information coverage in advisory brokers. <i>International journal of intelligent systems</i>, 22(11):1155-1188, November 2007. <a href='http://dx.doi.org/10.1002/int.20240' target='_new'>doi:10.1002/int.20240</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/vanbommel2005infocoverage.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/vanbommel2005infocoverage.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. B. A. Hoppenbrouwers, H. A. Proper, and V. E. van Reijswoud. Navigating the Methodology Jungle - The communicative role of modelling techniques in information system development. <i>Computing Letters</i>, 1(3), 2005.
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/hoppenbrouwers2005communication.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/hoppenbrouwers2005communication.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      G. E. Veldhuijzen van Zanten, S. J. B. A. Hoppenbrouwers, and H. A. Proper. System Development as a Rational Communicative Process. <i>Journal of Systemics, Cybernetics and Informatics</i>, 2(4):47-51, 2004.
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/veldhuijzenvanzanten2004rational.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/veldhuijzenvanzanten2004rational.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. B. A. Hoppenbrouwers, A. I. Bleeker, and H. A. Proper. Facing the Conceptual Complexities in Business Domain Modeling. <i>Computing Letters</i>, 1(2):59-68, 2005.
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/hoppenbrouwers2004linguisticcomplexity.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/hoppenbrouwers2004linguisticcomplexity.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Editor's introduction. <i>International Journal of Cooperative Information Systems</i>, 13(3):211-212, 2004. <a href='http://dx.doi.org/10.1142/S0218843004000948' target='_new'>doi:10.1142/S0218843004000948</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/proper2004ijcis.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/proper2004ijcis.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      B. van Gils, H. A. Proper, and P. van Bommel. A conceptual model of information supply. <i>Data &amp; Knowledge Engineering</i>, 51:189-222, 2004. <a href='http://dx.doi.org/10.1016/j.datak.2004.03.009' target='_new'>doi:10.1016/j.datak.2004.03.009</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/vangils2003informationsupply.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/vangils2003informationsupply.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      M. P. Papazoglou, H. A. Proper, and J. Yang. Landscaping the information space of large multi-database networks. <i>Data &amp; Knowledge Engineering</i>, 36(3):251-281, 2001. <a href='http://dx.doi.org/10.1016/S0169-023X(00)00050-1' target='_new'>doi:10.1016/S0169-023X(00)00050-1</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/papazoglou2001digilib.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/papazoglou2001digilib.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and P. D. Bruza. What is information discovery about? <i>Journal of the American Society for Information Science</i>, 50(9):737-750, July 1999. <a href='http://dx.doi.org/10.1002/(SICI)1097-4571(1999)50:93C737::AID-ASI23E3.0.CO;2-C' target='_new'>doi:10.1002/(SICI)1097-4571(1999)50:93C737::AID-ASI23E3.0.CO;2-C</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/proper1999infons.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/proper1999infons.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      A. H. M. ter Hofstede and H. A. Proper. How to formalize it?: Formalization principles for information system development methods. <i>Information and Software Technology</i>, 40(10):519-540, October 1998. <a href='http://dx.doi.org/10.1016/S0950-5849(98)00078-0' target='_new'>doi:10.1016/S0950-5849(98)00078-0</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/terhofstede1998howto.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/terhofstede1998howto.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Data schema design as a schema evolution process. <i>Data &amp; Knowledge Engineering</i>, 22(2):159-189, 1997. <a href='http://dx.doi.org/10.1016/S0169-023X(96)00045-6' target='_new'>doi:10.1016/S0169-023X(96)00045-6</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/proper1997versions.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/proper1997versions.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      A. H. M. ter Hofstede, H. A. Proper, and Th. P. van der Weide. Exploiting fact verbalisation in conceptual information modelling. <i>Information Systems</i>, 22(6/7):349-385, September 1997. <a href='http://dx.doi.org/10.1016/S0306-4379(97)00022-7' target='_new'>doi:10.1016/S0306-4379(97)00022-7</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/terhofstede1997grammar.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/terhofstede1997grammar.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      A. H. M. ter Hofstede, H. A. Proper, and Th. P. van der Weide. Query formulation as an information retrieval problem. <i>The Computer Journal</i>, 39(4):255-274, September 1996. <a href='http://dx.doi.org/10.1093/comjnl/39.4.255' target='_new'>doi:10.1093/comjnl/39.4.255</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/terhofstede1996qbn.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/terhofstede1996qbn.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      P. N. Creasy and H. A. Proper. A generic model for 3-dimensional conceptual modelling. <i>Data &amp; Knowledge Engineering</i>, 20(2):119-161, 1996. <a href='http://dx.doi.org/10.1016/0169-023X(95)00043-R' target='_new'>doi:10.1016/0169-023X(95)00043-R</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/creasy1996proper.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/creasy1996proper.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      T. A. Halpin and H. A. Proper. Subtyping and polymorphism in object-role modelling. <i>Data &amp; Knowledge Engineering</i>, 15:251-281, 1995. <a href='http://dx.doi.org/10.1016/0169-023X(95)00005-D' target='_new'>doi:10.1016/0169-023X(95)00005-D</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/halpin1995ormpoly.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/halpin1995ormpoly.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      G. H. W. M. Bronts, S. J. Brouwer, C. L. J. Martens, and H. A. Proper. A unifying object role modelling theory. <i>Information Systems</i>, 20(3):213-235, 1995. <a href='http://dx.doi.org/10.1016/0306-4379(95)00010-2' target='_new'>doi:10.1016/0306-4379(95)00010-2</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/brouwer1995ormkernel.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/brouwer1995ormkernel.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and Th. P. van der Weide. A general theory for evolving application models. <i>IEEE Transactions on Knowledge and Data Engineering</i>, 7(6):984-996, December 1995. <a href='http://dx.doi.org/10.1109/69.476503' target='_new'>doi:10.1109/69.476503</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/proper1995evolvam.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/proper1995evolvam.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and Th. P. van der Weide. Information disclosure in evolving information systems: Taking as shot at a moving target. <i>Data &amp; Knowledge Engineering</i>, 15:135-168, 1995. <a href='http://dx.doi.org/10.1016/0169-023X(94)00035-D' target='_new'>doi:10.1016/0169-023X(94)00035-D</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/proper1995disclsch.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/proper1995disclsch.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      L. J. Campbell, T. A. Halpin, and H. A. Proper. Conceptual schemas with abstractions: Making flat conceptual schemas more comprehensible. <i>Data &amp; Knowledge Engineering</i>, 20(1):39-85, 1996. <a href='http://dx.doi.org/10.1016/0169-023X(96)00005-5' target='_new'>doi:10.1016/0169-023X(96)00005-5</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/campbell1995abstraction.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/campbell1995abstraction.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and Th. P. van der Weide. EVORM: A conceptual modelling technique for evolving application domains. <i>Data &amp; Knowledge Engineering</i>, 12:313-359, 1994. <a href='http://dx.doi.org/10.1016/0169-023X(94)90031-0' target='_new'>doi:10.1016/0169-023X(94)90031-0</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/proper1994evolvpsm.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/proper1994evolvpsm.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      J. L. H. Oei, H. A. Proper, and E. D. Falkenberg. Evolving information systems: Meeting the ever-changing environment. <i>Information Systems Journal</i>, 4(3):213-233, 1994. <a href='http://dx.doi.org/10.1111/j.1365-2575.1994.tb00052.x' target='_new'>doi:10.1111/j.1365-2575.1994.tb00052.x</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/falkenberg1994eispromo.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/falkenberg1994eispromo.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      A. H. M. ter Hofstede, H. A. Proper, and Th. P. van der Weide. Formal definition of a conceptual language for the description and manipulation of information models. <i>Information Systems</i>, 18(7):489-523, October 1993. <a href='http://dx.doi.org/10.1016/0306-4379(93)90004-K' target='_new'>doi:10.1016/0306-4379(93)90004-K</a>
+      </br>
+      <a href="https://downloads.erikproper.eu/publications/terhofstede1993lisad.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/publications/terhofstede1993lisad.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+  </ul>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
+

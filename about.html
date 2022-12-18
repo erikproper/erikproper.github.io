@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Henderik A. Proper</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family: Helvetica, Arial, sans-serif}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .dropbtn-active {
+  font-size: 17px;    
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn-active {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown .dropbtn-active {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" target="_new">Hend<i>erik</i> Alex Proper</a>
+  <a href="index.html">Welcome</a>
+  <a href="about.html" class="active">About</a>
+  <a href="https://orcid.org/0000-0002-7318-2496" target="_new"><span style=font-size:14px>ORC</span><span style=color:#A5CD39>i<span style=font-size:14px>D</span></span></a>
+  <a href="contact.html">Contact</a>
+  <a href="http://downloads.erikproper.eu/cv.pdf" target="_new">CV</a>
+  <div class="dropdown">
+    <button class="dropbtn">
+      Publications <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="pubs-books.html">Books</a>
+    <a href="pubs-edited-books.html">Edited Books</a>
+    <a href="pubs-chapters.html">Chapter in Books</a>
+    <a href="pubs-journals.html">Journal Publications</a>
+    <a href="pubs-conferences.html">Conference Publications</a>
+    <a href="pubs-reports.html">Technical Reports</a>
+    <a href="pubs-industrial.html">Industrial Publications</a>
+    <a href="pubs-educational.html">Educational Publications</a>
+    </div>
+  </div>
+  <a href="presentations.html">Presentations</a>
+  <a href="http://epx.erikproper.eu" target="_new">Photography</a>
+  <a href="sports.html">Sports</a>
+  <a href="http://erikproper.blogspot.com" target="_new">Blog</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px; line-height:1.4">
+  <img src="Work-Small.jpg" width="15%" align="left" style="padding: 0px 16px 2px 0px"/>
+  
+  <h2>About</h2>
+  
+  <p>Prof.dr. Hend<i>erik</i> A. Proper, Erik for friends, is an FNR PEARL Laureate, and is a senior research manager within the Computer Science (ITIS) department of the Luxembourg Institute of Science and Technology (LIST). He is  also Adjunct Professor in Data & Knowledge Engineering at the University of Luxembourg. He regularly provides guest lectures within different MSc programmes offered by the University of Luxembourg (LU), the University of Lorraine (FR), TU Wien (AT), the University of Namur (BE), Antwerp University (BE), and TIAS (NL).</p>
+  
+  <p>As of 1.1.2023, Erik will be a Full Professor in Enterprise and Process Engineering in the Business Informatics Group at the TU Wien, Austria, where has already been a gues Professor since 2018.</p>
+  
+  <p>Erik has a mixed background, covering a variety of roles in both academia and industry. His core research drive is the development of theories that work. In other words, Erik focuses on research that leads to results that have both theoretical rigour and practical relevance.  His general research interest concerns the foundations and applications of domain modelling. Over the past 20 years, he has applied this research drive and general research interest towards the further development of the field of enterprise engineering, and enterprise modelling in particular.  His long experience in teaching and coaching a wide variety of people enables him to involve and engage others in this development. He has co-authored several journal papers, conference publications and books.</p>
+  
+  <p>Erik received his Master's degree from the University of Nijmegen, The Netherlands in May 1990, and received his PhD (with distinction) from the same University in April 1994. In his Doctoral thesis he developed a theory for conceptual modelling of evolving application domains, yielding a formal specification of evolving information systems. After receiving his PhD, Erik became a senior research fellow at the Computer Science Department of the University of Queensland, Brisbane, Australia. During that period he also conducted research in the Asymetrix Research Lab at that University for Asymetrix Corp, Seattle, Washington. In 1995 he became a lecturer at the School of Information Systems from the Queensland University of Technology, Brisbane, Australia. During this period he was also seconded as a senior researcher to the Distributed Systems Technology Centre (DSTC), a Cooperative Research Centre funded by the Australian government.</p>
+  
+  <p>From 1997 to 2001, Erik worked in industry. First as a consultant at Origin, Amsterdam, The Netherlands, and later as a research consultant and principal scientist at the Ordina Institute for Research and Innovation, Gouda, The Netherlands.</p>
+  
+  <p>In June 2001, Erik returned to academia, where he became an adjunct Professor at the Radboud University Nijmegen. In September 2002, Erik obtained a full-time Professorship position at the Radboud University Nijmegen.</p>
+  
+  <p>In January of 2008, he went back to combining industry and academia, by combining his Professorship with consulting and innovation at Capgemini, with the aim of more tightly combining his theoretical and practical work. Finally, in May 2010 Erik moved to the Luxembourg Institute of Science and Technology as a PEARL chair, while initially also continuing his chair at the Radboud University Nijmegen in the Netherlands. As of June 2017, Erik also holds a chair in Data & Knowledge Engineering at the University of Luxembourg.</p>
+  
+  <p>As of January 2022, Erik is vice-chair of the IFIP 8.1 working group, while also being the representative for the Netherlands in IFIP's TC8 technical committee. He is also the Stellvertretender Sprecher (vice chair) of the EMISA working group of the German Computer Science Society (Gesellschaft für Informatik), as well as a member of the management team of the Enterprise Engineering Network.</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
+
