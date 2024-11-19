@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Henderik A. Proper</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family: Helvetica, Arial, sans-serif}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .dropbtn-active {
+  font-size: 17px;    
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn-active {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown .dropbtn-active {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" target="_new">Hend<i>erik</i> Alex Proper</a>
+  <a href="index.html">Welcome</a>
+  <a href="about.html">About</a>
+  <a href="https://orcid.org/0000-0002-7318-2496" target="_new"><span style=font-size:14px>ORC</span><span style=color:#A5CD39>i<span style=font-size:14px>D</span></span></a>
+  <a href="contact.html">Contact</a>
+  <a href="http://www.erikproper.eu/downloads/cv.pdf" target="_new">CV</a>
+  <div class="dropdown">
+    <button class="dropbtn-active">
+      Publications <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="pubs-books.html">Books</a>
+    <a href="pubs-edited-books.html">Edited Books</a>
+    <a href="pubs-chapters.html">Chapter in Books</a>
+    <a href="pubs-journals.html">Journal Publications</a>
+    <a href="pubs-conferences.html">Conference Publications</a>
+    <a href="pubs-reports.html">Technical Reports</a>
+    <a href="pubs-industrial.html">Industrial Publications</a>
+    <a href="pubs-educational.html">Educational Publications</a>
+    </div>
+  </div>
+  <a href="presentations.html">Presentations</a>
+  <a href="setup.html">Research Setup</a>
+  <a href="http://epx.erikproper.eu" target="_new">Photography</a>
+  <a href="sports.html">Sports</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px; line-height:1.4">
+  <h2>Industrial Publications</h2>
+  <ul>
+    <li>
+      G. L. Kolfschoten, J. B. F. Mulder, and H. A. Proper. Samenwerken moet effectiever en effici&euml;nter - De fata morgana van Group SuppIort Systemen. <i>Informatie</i>, (4), May 2016.
+      </br>
+      <a href="https://www.erikproper.eu/publications/kolfschoten2016gss.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/kolfschoten2016gss.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Enterprise Architecture - Growing up to evidence-based management? In F. Baldinger and D. B. B. Rijsenbrij, editors, <i>State-of-the-art architectuur 2012: Balans in zingeving en vormgeving</i>, chapter 8.1, pages 317-328. LINE UP boek en media, The Netherlands, 2012. ISBN: 9789491065521
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2012evidencebased.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2012evidencebased.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Enterprise Architecture: Informed governance of enterprise transformations. <i>IT Nation - Enterprises</i>, 2011.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2011informedgovernance.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2011informedgovernance.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      D. van Gelder, M. Mahakena, H. A. Proper, and R. Tolido. Broodnodige standaardisering - TOGAF 9 is ferme stap op weg naar volwassenheid. <i>Business Process Magazine</i>, (4):30-33, June 2009.
+      </br>
+      <a href="https://www.erikproper.eu/publications/vangelder2009togaf.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/vangelder2009togaf.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and R. Tolido. Architecten eindelijk aan standaarden. <i>Automatiseringsgids</i>, pages 16-17, 27 Maart 2009.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2009openstandards.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2009openstandards.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and R. Tolido. ArchiMate internationaal succes - Van lokaal initiatief tot internationale standaard voor architectuurmodellering. <i>Automatiseringsgids</i>, pages 18-19, 27 Maart 2009.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2009archimate.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2009archimate.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      M. M. Lankhorst, H. A. Proper, and S. Bekius. IT-innovatie alleen door samenwerking. <i>Automatisering Gids</i>, (19), 2009.
+      </br>
+      <a href="https://www.erikproper.eu/publications/lankhorst2009itfinanciering.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/lankhorst2009itfinanciering.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      M. M. Lankhorst, H. Jonkers, and H. A. Proper. ArchiMate internationaal succes. <i>Automatiseringsgids</i>, pages 18-19, 27 Maart 2009.
+      </br>
+      <a href="https://www.erikproper.eu/publications/lankhorst2009archimate.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/lankhorst2009archimate.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. Jonkers, H. A. Proper, and M. Turner. TOGAF 9 and ArchiMate 1.0. White Paper W191, The Open Group, November 2009. <a href='http://www.opengroup.org/bookstore/catalog/w192.htm' target='_new'>http://www.opengroup.org/bookstore/catalog/w192.htm</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/jonkers2009use.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/jonkers2009use.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. Jonkers, H. A. Proper, and M. Turner. TOGAF and ArchiMate: A Future Together. White Paper W192, The Open Group, November 2009. <a href='http://www.opengroup.org/bookstore/catalog/w192.htm' target='_new'>http://www.opengroup.org/bookstore/catalog/w192.htm</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/jonkers2009archimatetogaf.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/jonkers2009archimatetogaf.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      M.-E. Iacob, H. Jonkers, M. M. Lankhorst, and H. A. Proper. Internationale Standaard - ArchiMate 1.0 is nieuwe modelleertaal voor enterprise architectuur. <i>Business Process Magazine</i>, (4):34-39, June 2009.
+      </br>
+      <a href="https://www.erikproper.eu/publications/iacob2009archimate.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/iacob2009archimate.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      R. Wagter, G. Nijkamp, D. Witte, and H. A. Proper. GEA in relation to other steering instruments. White Paper GEA-8, Ordina, Utrecht, The Netherlands, 2008.
+      </br>
+      <a href="https://www.erikproper.eu/publications/wagter2008geasturen.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/wagter2008geasturen.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Fundamentally understanding IT? - Why Web 2.0 needs architects. Part II, 2008. <a href='http://tinyurl.com/mc3ozv8' target='_new'>http://tinyurl.com/mc3ozv8</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2008actorweb.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2008actorweb.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. Overbeek, P. van Bommel, and H. A. Proper. Systeem voor cognitieve afstemming. <i>.ego - Magazine voor Informatiekundigen</i>, 7(3):19-021, 2008.
+      </br>
+      <a href="https://www.erikproper.eu/publications/overbeek2008cognitieveafstemming.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/overbeek2008cognitieveafstemming.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      R. Wagter, R. Stovers, G. Nijkamp, and H. A. Proper. GEA-processes and products, a closer examination. White Paper GEA-6, Ordina, Utrecht, The Netherlands, 2007.
+      </br>
+      <a href="https://www.erikproper.eu/publications/wagter2007geaprocesses.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/wagter2007geaprocesses.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      R. Wagter, G. Nijkamp, and H. A. Proper. Overview 1th Phase - General Enterprise Architecturing. White Paper GEA-1, Ordina, Utrecht, The Netherlands, 2007.
+      </br>
+      <a href="https://www.erikproper.eu/publications/wagter2007geaoverview.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/wagter2007geaoverview.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      R. Wagter, G. Nijkamp, R. Stovers, and H. A. Proper. E-Government using GEA and NORA. White Paper GEA-4, Ordina, Utrecht, The Netherlands, 2007.
+      </br>
+      <a href="https://www.erikproper.eu/publications/wagter2007geanora.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/wagter2007geanora.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      R. Wagter, G. Nijkamp, and H. A. Proper. The Elements of the "GEA-Structure". White Paper GEA-2, Ordina, Utrecht, The Netherlands, 2007.
+      </br>
+      <a href="https://www.erikproper.eu/publications/wagter2007geaelements.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/wagter2007geaelements.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      R. Wagter, G. Nijkamp, and H. A. Proper. GEA-Benchmark: Measuring cohesion. White Paper GEA-3, Ordina, Utrecht, The Netherlands, 2007.
+      </br>
+      <a href="https://www.erikproper.eu/publications/wagter2007geabenchmark.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/wagter2007geabenchmark.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      R. Wagter, D. Witte, and H. A. Proper. The GEA architecture function: A strategic specialism. White Paper GEA-7, Ordina, Utrecht, The Netherlands, 2007.
+      </br>
+      <a href="https://www.erikproper.eu/publications/wagter2007geaarchitectuurfunctie.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/wagter2007geaarchitectuurfunctie.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      R. Wagter, G. Nijkamp, and H. A. Proper. Applying GEA to a business issue. White Paper GEA-5, Ordina, Utrecht, The Netherlands, 2007.
+      </br>
+      <a href="https://www.erikproper.eu/publications/wagter2007geaapplied.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/wagter2007geaapplied.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Veranderende wetten uitdaging voor IT'ers. <i>Reformatorisch Dagblad</i>, (zaterdag 9 juni):15, 2007.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2007veranderendewetten.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2007veranderendewetten.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. De praktijk is ons laboratorium. In F. Baldinger, editor, <i>Vijf jaar Nederlands Architectuur Forum - Passie en Perceptie</i>. Netherlands Architecture Forum, The Netherlands, 2007.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2007praktijklab.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2007praktijklab.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      D. Greefhorst, H. A. Proper, and F. Van den Ham. Principes: de hoeksteen voor architectuur - Verslag van een workshop op het Landelijk Architectuur Congres 2007 (Principles: The Cornerstone of Architecture - A report of a workshop held at the Dutch National Architecture Congres 2007. <i>Via Nova Architectura</i>, 2007. <a href='http://www.via-nova-architectura.org' target='_new'>http://www.via-nova-architectura.org</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/greefhorst2007principles.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/greefhorst2007principles.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      G. J. N. M. Chorus, Y. H. C. Janse, C. J. P. Nellen, S. J. B. A. Hoppenbrouwers, and H. A. Proper. Formalizing Architecture Principles using Object-Role Modelling. <i>Via Nova Architectura</i>, February 2007. <a href='http://tinyurl.com/hvaepms' target='_new'>http://tinyurl.com/hvaepms</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/chorus2007formalizingprinciples.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/chorus2007formalizingprinciples.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. Overbeek, P. van Bommel, H. A. Proper, and D. B. B. Rijsenbrij. Grondslagen en Toepassingen voor Intelligente Kennisuitwisseling. <i>IT Monitor</i>, 9(10):8-11, November 2006.
+      </br>
+      <a href="https://www.erikproper.eu/publications/overbeek2006kennisuitwisselingtoepassingen.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/overbeek2006kennisuitwisselingtoepassingen.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      V. E. van Reijswoud, R. van Alteren, and H. A. Proper. Ken je plekje - Geschikte ICT in ontwikkelingslanden. <i>Informatie</i>, 47(4):10-16, 2005.
+      </br>
+      <a href="https://www.erikproper.eu/publications/vanreijswoud2005appropriatetechnology.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/vanreijswoud2005appropriatetechnology.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. TEE Group - Focus &amp; Drives - Return on modelling effort, January 2005. <a href='http://www.cs.ru.nl/tee/focus-drives.htm' target='_new'>http://www.cs.ru.nl/tee/focus-drives.htm</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2005rome.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2005rome.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. B. A. Hoppenbrouwers, H. A. Proper, and A. I. Bleeker. Modelleertalen als communicatiemiddel in architectuurprocessen. <i>Informatie &amp; Architectuur</i>, 1(1):4-6, 2005.
+      </br>
+      <a href="https://www.erikproper.eu/publications/hoppenbrouwers2005communicatie.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/hoppenbrouwers2005communicatie.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      V. E. van Reijswoud and H. A. Proper. Struggling in the Bush: ICT-onderwijs in Oeganda. <i>TINFON</i>, 13(2):59-61, June 2004.
+      </br>
+      <a href="https://www.erikproper.eu/publications/reijswoud2004oeganda.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/reijswoud2004oeganda.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Informatiekundigen in het Digitale Tijdperk. <i>.ego - Magazine voor Informatiekundigen</i>, 3(2):4, 2004.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2004uitdagingen.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2004uitdagingen.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Systeemontwikkeling is Evolutie. <i>Informatie</i>, 46(6):44-48, 2004.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2004evenwicht.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2004evenwicht.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and V. Kamphuis. Informatiekundigen: Vormgevers van de digitale samenleving. <i>TINFON</i>, 12(4):106-109, December 2003.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2003informatiekunde.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2003informatiekunde.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      M. M. Lankhorst and H. A. Proper. Sturen door Inzicht. <i>IT Monitor</i>, (3):8-11, March 2003.
+      </br>
+      <a href="https://www.erikproper.eu/publications/lankhorst2003sturen.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/lankhorst2003sturen.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      W.-J. van den Heuvel and H. A. Proper. De pragmatiek van Architectuur. <i>Informatie</i>, 44(11):12-14, 2002.
+      </br>
+      <a href="https://www.erikproper.eu/publications/heuvel2002architectuurpragmatiek.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/heuvel2002architectuurpragmatiek.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      R. van Achterberg, B. Frankema, M. de Jong-Ellenbroek, P. van der Molen, H. A. Proper, and W. Schut. Handleiding SysteemConcept en ApplicatieArchitectuur - Startarchitectuur. Technical Report Version 2.0, Dutch Taxation Office, March 2000.
+      </br>
+      <a href="https://www.erikproper.eu/publications/vanachterberg2000startarchitectuur.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/vanachterberg2000startarchitectuur.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      E.-J. Elferich, H. A. Proper, and A. P. de Vries. KennisIntegratie onder Architectuur. <i>ID Nieuws</i>, 6:10-12, March 2000.
+      </br>
+      <a href="https://www.erikproper.eu/publications/elferich2000kennisintegratie.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/elferich2000kennisintegratie.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. ISPL toegepast - Aanbestedingen van grootschalige migratieprojecten. <i>ID Nieuws</i>, 3:4-8, March 1999.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1999lsm.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1999lsm.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Een derde dimensie voor informatiemodelleren. <i>DB/Magazine</i>, 10(3):52-55, May 1999.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1999abstractie.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1999abstractie.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. B. A. Hoppenbrouwers and H. A. Proper. Knowledge Discovery - De zoektocht naar verhulde en onthulde kennis. <i>DB/Magazine</i>, 10(7):21-25, November 1999.
+      </br>
+      <a href="https://www.erikproper.eu/publications/hoppenbrouwers1999knowledgediscovery.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/hoppenbrouwers1999knowledgediscovery.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Kennismanagement onder architectuur. <i>ID Nieuws</i>, 2:5-7, November 1998.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1998kennismanagement.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1998kennismanagement.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Flexibiliteit van informatiemodellen. <i>Informatie</i>, 40(4):28-33, 1998.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1998flexibiliteit.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1998flexibiliteit.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      A. H. M. ter Hofstede, H. A. Proper, and Th. P. van der Weide. PSM: Datamodelleren in het Kwadraat. <i>DB/Magazine</i>, 3(4):37-41, June 1992.
+      </br>
+      <a href="https://www.erikproper.eu/publications/terhofstede1992psmpromonl.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/terhofstede1992psmpromonl.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+  </ul>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
+

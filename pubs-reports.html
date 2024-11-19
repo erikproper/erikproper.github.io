@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Henderik A. Proper</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family: Helvetica, Arial, sans-serif}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .dropbtn-active {
+  font-size: 17px;    
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn-active {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown .dropbtn-active {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" target="_new">Hend<i>erik</i> Alex Proper</a>
+  <a href="index.html">Welcome</a>
+  <a href="about.html">About</a>
+  <a href="https://orcid.org/0000-0002-7318-2496" target="_new"><span style=font-size:14px>ORC</span><span style=color:#A5CD39>i<span style=font-size:14px>D</span></span></a>
+  <a href="contact.html">Contact</a>
+  <a href="http://www.erikproper.eu/downloads/cv.pdf" target="_new">CV</a>
+  <div class="dropdown">
+    <button class="dropbtn-active">
+      Publications <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="pubs-books.html">Books</a>
+    <a href="pubs-edited-books.html">Edited Books</a>
+    <a href="pubs-chapters.html">Chapter in Books</a>
+    <a href="pubs-journals.html">Journal Publications</a>
+    <a href="pubs-conferences.html">Conference Publications</a>
+    <a href="pubs-reports.html">Technical Reports</a>
+    <a href="pubs-industrial.html">Industrial Publications</a>
+    <a href="pubs-educational.html">Educational Publications</a>
+    </div>
+  </div>
+  <a href="presentations.html">Presentations</a>
+  <a href="setup.html">Research Setup</a>
+  <a href="http://epx.erikproper.eu" target="_new">Photography</a>
+  <a href="sports.html">Sports</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px; line-height:1.4">
+  <h2>Technical Reports</h2>
+  <ul>
+    <li>
+      A. Ahmad, M. Bandara, M. Fahmideh, H. A. Proper, G. Guizzardi, and J. Soar. An overview of ontologies and tool support for COVID-19 analytics. Technical Report arXiv:2110.06397, 2021. <a href='https://arxiv.org/abs/2110.06397' target='_new'>https://arxiv.org/abs/2110.06397</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/ahmad2021covidontologyarchive.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/ahmad2021covidontologyarchive.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2110-06397" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. <i>Grounded Enterprise Modelling</i>. DaVinci Series. Nijmegen Institute for Information and Computing Sciences, Radboud University, Nijmegen, The Netherlands, 2008.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2008em.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2008em.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      P. van Bommel, H. A. Proper, and Th. P. van der Weide. Structured Modeling with Uncertainty. Technical Report ICIS-R07022, Radboud University, Nijmegen, The Netherlands, 2007. <a href='https://hdl.handle.net/2066/36515' target='_new'>https://hdl.handle.net/2066/36515</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/vanbommel2005structuredmodelling.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/vanbommel2005structuredmodelling.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      J. Nabukenya, G.-J. de Vreede, and H. A. Proper. Research Methods for Collaboration Engineering: An Assessment of Applicability Using Collaborative Policy-Making Example. Technical Report ICIS-R07010, Radboud University, May 2007. <a href='https://hdl.handle.net/2066/36409' target='_new'>https://hdl.handle.net/2066/36409</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/nabukenya2007collaborationmethods.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/nabukenya2007collaborationmethods.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      B. van Gils and H. A. Proper. Fundamentals of Quality on the Web. Technical Report ICIS-R06029, Radboud University, Nijmegen, The Netherlands, June 2006. <a href='https://hdl.handle.net/2066/35797' target='_new'>https://hdl.handle.net/2066/35797</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/vangils2006webquiality.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/vangils2006webquiality.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Foundations of Work-Systems Modeling. Lecture Notes arXiv:2401.16221, Radboud University, Nijmegen, The Netherlands, Nijmegen, The Netherlands, 2006. <a href='https://arxiv.org/abs/2401.16221' target='_new'>https://arxiv.org/abs/2401.16221</a> <a href='http://dx.doi.org/10.48550/ARXIV.2401.16221' target='_new'>doi:10.48550/ARXIV.2401.16221</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2006worksystemsmodeling.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2006worksystemsmodeling.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2401-16221" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      B. van Gils, H. A. Proper, P. van Bommel, and Th. P. van der Weide. Aptness based search on the Web. Technical Report ICIS-R06005, Radboud University, Nijmegen, The Netherlands, November 2005. <a href='https://hdl.handle.net/2066/36106' target='_new'>https://hdl.handle.net/2066/36106</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/vangils2005aptnessbasedsearch.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/vangils2005aptnessbasedsearch.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      E. D. Schabell, H. A. Proper, and Th. P. van der Weide. IRIS Publication Management System - the first steps towards realization. Technical Report ICIS-R06008, Radboud University, Nijmegen, The Netherlands, December 2005. <a href='https://hdl.handle.net/2066/32610' target='_new'>https://hdl.handle.net/2066/32610</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/schabell2005realizationpms.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/schabell2005realizationpms.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Work Systems Modeling Library. Technical Report arXiv:2105.07419, Radboud University, Nijmegen, The Netherlands, 2005. <a href='https://arxiv.org/abs/2105.07419' target='_new'>https://arxiv.org/abs/2105.07419</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2005wsml.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2005wsml.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-07419" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and Th. P. van der Weide. <i>The DaVinci Series</i>. DaVinci Series. Nijmegen Institute for Information and Computing Sciences, University of Nijmegen, Nijmegen, The Netherlands, 2005.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2005davincioverview.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2005davincioverview.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. Overbeek, D. B. B. Rijsenbrij, and H. A. Proper. Sophia: Towards a Personal Digital Workspace for Knowledge Workers. Technical Report ICIS-R06007, Radboud University, Nijmegen, The Netherlands, January 2005. <a href='https://hdl.handle.net/2066/32999' target='_new'>https://hdl.handle.net/2066/32999</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/overbeek2005digitalworkspaces.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/overbeek2005digitalworkspaces.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. B. A. Hoppenbrouwers, Th. P. van der Weide, and H. A. Proper. Dealing with Uncertainty in Information Modelling. Technical Report ICIS-R05013, Institute for Information and Computing Sciences, Radboud University, Nijmegen, The Netherlands, 2005. <a href='https://hdl.handle.net/2066/32389' target='_new'>https://hdl.handle.net/2066/32389</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/hoppenbrouwers2005uncertainty.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/hoppenbrouwers2005uncertainty.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      S. J. B. A. Hoppenbrouwers, H. A. Proper, and Th. P. van der Weide. Fundamental Understanding of the Act of Modelling. Technical Report ICIS-R05006, Radboud University, Nijmegen, The Netherlands, January 2005. <a href='https://hdl.handle.net/2066/60457' target='_new'>https://hdl.handle.net/2066/60457</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/hoppenbrouwers2005modelling.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/hoppenbrouwers2005modelling.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. <i>Architecture-driven Information Systems Engineering</i>. DaVinci Series. Nijmegen Institute for Information and Computing Sciences, University of Nijmegen, Nijmegen, The Netherlands, 2004.
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2004davinci.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2004davinci.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and S. J. B. A. Hoppenbrouwers. Information System Evolution as Language Evolution. Technical Report NIII-R0205, Nijmegen Institute for Information and Computing Sciences, University of Nijmegen, Nijmegen, The Netherlands, 2003. <a href='https://hdl.handle.net/2066/111110' target='_new'>https://hdl.handle.net/2066/111110</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper2003languageevolution.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper2003languageevolution.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      R. D. T. Janssen and H. A. Proper. A functionality taxonomy for document search engines. Technical Report arXiv:2105.12989, Ordina Institute, Gouda, The Netherlands, June 2001. <a href='http://arxiv.org/abs/2105.12989' target='_new'>http://arxiv.org/abs/2105.12989</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/janssen2001searchfunctionality.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/janssen2001searchfunctionality.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-12989" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      R. D. T. Janssen, H. A. Proper, H. Bosma, D. Verhoef, and S. J. B. A. Hoppenbrouwers. Developing an Architecture Method Library. Technical Report arXiv:2105.07396, Ordina Institute, Gouda, The Netherlands, January 2001. <a href='https://arxiv.org/abs/2105.07396' target='_new'>https://arxiv.org/abs/2105.07396</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/janssen2001architecturemethodlibrary.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/janssen2001architecturemethodlibrary.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-07396" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Da Vinci - Architecture-Driven Business Solutions. Technical Report arXiv:2105.09255, Origin, Utrecht, The Netherlands, Summer 1998. <a href='https://arxiv.org/abs/2105.09255' target='_new'>https://arxiv.org/abs/2105.09255</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1998davinci.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1998davinci.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-09255" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      T. A. Barrett and H. A. Proper. Component Based Solutions Under Architecture. Technical Report arXiv:2105.08702, Origin, Utrecht, The Netherlands, Spring 1998. <a href='https://arxiv.org/abs/2105.08702' target='_new'>https://arxiv.org/abs/2105.08702</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/barrett1998compbasedsolutions.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/barrett1998compbasedsolutions.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-08702" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      P. D. Bruza and H. A. Proper. Discovering the Information that is lost in our Databases - Why bother storing data if you can't find the information? arxiv:2105.08716, Distributed Systems Technology Centre, Brisbane, Queensland, Australia, 1996. <a href='https://arxiv.org/abs/2105.08716' target='_new'>https://arxiv.org/abs/2105.08716</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/bruza1996whybother.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/bruza1996whybother.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-08716" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      A. P. Barros, A. H. M. ter Hofstede, H. A. Proper, and P. N. Creasy. Business Suitability Principles for Workflow Modelling. Technical Report arXiv:2105.12654, Department of Computer Science, University of Queensland, Brisbane, Queensland, Australia, August 1996. <a href='https://arxiv.org/abs/2105.12654' target='_new'>https://arxiv.org/abs/2105.12654</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/barros1996workflowsuitabilityprinciples.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/barros1996workflowsuitabilityprinciples.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-12654" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      A. P. Barros, A. H. M. ter Hofstede, and H. A. Proper. Towards an Integrated Conceptual Modelling Kernel for Business Transaction Workflows. Technical Report arXiv:2105.15139, Department of Computer Science, University of Queensland, Brisbane, Queensland, Australia, November 1996. <a href='http://arxiv.org/abs/2105.15139' target='_new'>http://arxiv.org/abs/2105.15139</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/barros1996workflowkernel.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/barros1996workflowkernel.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-15139" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and T. A. Halpin. Conceptual Schema Optimisation - Database Optimisation before sliding down the Waterfall. Technical Report arXiv:2105.12647, Department of Computer Science, University of Queensland, Brisbane, Queensland, Australia, July 1995. <a href='https://arxiv.org/abs/2105.12647' target='_new'>https://arxiv.org/abs/2105.12647</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1995transformfull.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1995transformfull.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-12647" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Interactive Query Formulation using Spider Queries. Technical Report arXiv:2105.10349, Asymetrix Research Laboratory, University of Queensland, Brisbane, Queensland, Australia, 1994. <a href='https://arxiv.org/abs/2105.10349' target='_new'>https://arxiv.org/abs/2105.10349</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1994sq.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1994sq.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-10349" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Interactive Query Formulation using Query By Navigation. Technical Report arXiv:2105.09562, Asymetrix Research Laboratory, University of Queensland, Brisbane, Queensland, Australia, 1994. <a href='https://arxiv.org/abs/2105.09562' target='_new'>https://arxiv.org/abs/2105.09562</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1994qbn.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1994qbn.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-09562" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Interactive Query Formulation using Point to Point Queries. Technical Report arXiv:2102.01411, Asymetrix Research Report 94-1, Asymetrix Research Laboratory, University of Queensland, Brisbane, Queensland, Australia, 1994. <a href='https://arxiv.org/abs/2102.01411' target='_new'>https://arxiv.org/abs/2102.01411</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1994ppq.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1994ppq.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2102-01411" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper and Th. P. van der Weide. A General Theory for the Evolution of Application Models - Full version. Technical Report arXiv:2105.11308, Department of Computer Science, University of Queensland, Brisbane, Australia, 1994. <a href='https://arxiv.org/abs/2105.11308' target='_new'>https://arxiv.org/abs/2105.11308</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1994fullevolvam.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1994fullevolvam.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-11308" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Introduction to Formal Notations. Technical report, Asymetrix Research Laboratory, University of Queensland, Brisbane, Queensland, Australia, 1994. <a href='https://downloads.erikproper.eu/publications/proper1994formal.pdf' target='_new'>https://downloads.erikproper.eu/publications/proper1994formal.pdf</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1994formal.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1994formal.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. Generating Significant Examples for Conceptual Schema Validation. Technical Report arXiv:2105.09561, Asymetrix Research Laboratory, University of Queensland, Brisbane, Queensland, Australia, 1994. <a href='https://arxiv.org/abs/2105.09561' target='_new'>https://arxiv.org/abs/2105.09561</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1994exgen.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1994exgen.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-09561" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. An Overview of Computer Supported Query Formulation. Technical Report arXiv:2105.09009, Asymetrix Research Laboratory, University of Queensland, Brisbane, Queensland, Australia, 1994. <a href='https://arxiv.org/abs/2105.09009' target='_new'>https://arxiv.org/abs/2105.09009</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1994csqfoverview.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1994csqfoverview.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-09009" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      H. A. Proper. ConQuer-92 - The revised report on the conceptual query language LISA-D. Technical Report arXiv:2105.11926, Asymetrix Research Laboratory, University of Queensland, Brisbane, Queensland, Australia, 1994. <a href='https://arxiv.org/abs/2105.11926' target='_new'>https://arxiv.org/abs/2105.11926</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/proper1994conquer.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/proper1994conquer.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2105-11926" target=_new><img src="DBLP.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      A. H. M. ter Hofstede, H. A. Proper, and Th. P. van der Weide. A Note on Schema Equivalence. Technical Report 92-30, Department of Information Systems, University of Nijmegen, Nijmegen, The Netherlands, 1992. <a href='https://hdl.handle.net/2066/229974' target='_new'>https://hdl.handle.net/2066/229974</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/terhofstede1992schemaequiv.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/terhofstede1992schemaequiv.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      E. D. Falkenberg, J. L. H. Oei, and H. A. Proper. A Meta Model for Update in Information Systems. Technical Report 92-05, Department of Information Systems, University of Nijmegen, Nijmegen, The Netherlands, 1992. <a href='https://hdl.handle.net/2066/229960' target='_new'>https://hdl.handle.net/2066/229960</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/falkenberg1992eisupd.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/falkenberg1992eisupd.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      J. L. H. Oei, H. A. Proper, and E. D. Falkenberg. Modelling the Evolution of Information Systems. Technical Report 92-36, Department of Information Systems, University of Nijmegen, Nijmegen, The Netherlands, 1992. <a href='https://hdl.handle.net/2066/229961' target='_new'>https://hdl.handle.net/2066/229961</a>
+      </br>
+      <a href="https://www.erikproper.eu/publications/falkenberg1992eismetamod.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://www.erikproper.eu/publications/falkenberg1992eismetamod.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+  </ul>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
+

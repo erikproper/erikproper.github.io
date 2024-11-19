@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Henderik A. Proper</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family: Helvetica, Arial, sans-serif}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .dropbtn-active {
+  font-size: 17px;    
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn-active {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown .dropbtn-active {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" target="_new">Hend<i>erik</i> Alex Proper</a>
+  <a href="index.html">Welcome</a>
+  <a href="about.html">About</a>
+  <a href="https://orcid.org/0000-0002-7318-2496" target="_new"><span style=font-size:14px>ORC</span><span style=color:#A5CD39>i<span style=font-size:14px>D</span></span></a>
+  <a href="contact.html">Contact</a>
+  <a href="http://www.erikproper.eu/downloads/cv.pdf" target="_new">CV</a>
+  <div class="dropdown">
+    <button class="dropbtn">
+      Publications <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="pubs-books.html">Books</a>
+    <a href="pubs-edited-books.html">Edited Books</a>
+    <a href="pubs-chapters.html">Chapter in Books</a>
+    <a href="pubs-journals.html">Journal Publications</a>
+    <a href="pubs-conferences.html">Conference Publications</a>
+    <a href="pubs-reports.html">Technical Reports</a>
+    <a href="pubs-industrial.html">Industrial Publications</a>
+    <a href="pubs-educational.html">Educational Publications</a>
+    </div>
+  </div>
+  <a href="presentations.html" class="active">Presentations</a>
+  <a href="setup.html">Research Setup</a>
+  <a href="http://epx.erikproper.eu" target="_new">Photography</a>
+  <a href="sports.html">Sports</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px; line-height:1.4">
+  <h2>Presentations</h2>
+  <ul>
+    <li>
+      2021.10.19, <i>Enterprises as model-driven systems</i>, delivered at the <i>International Information Management Association (IIMA) Conference 2021</i>, Utrecht, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/20211019_model-driven_enterprises.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/presentations/20211019_model-driven_enterprises.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      2021.03.26, <i>Informed Governance of Enterprise Transformations</i>, guest lecture at the <i>EA Debt Student Workshop</i>, Frankfurt University of Applied Sciences, Frankfurt, Germany.</br>
+      <a href="https://downloads.erikproper.eu/presentations/20210326_ea_debt.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/presentations/20210326_ea_debt.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      2020.11.18, <i>Domain Modelling - Understanding the things we talk about</i>, guest lecture at the <i>CSE Distinguished Seminar Series</i>, TU Lisbon, Portugal.</br>
+      <a href="https://downloads.erikproper.eu/presentations/20201118_cse_distinguished_seminar_series.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/presentations/20201118_cse_distinguished_seminar_series.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      2020.07.14, <i>Domain Modelling - Understanding the things we talk about</i>, guest lecture at the <i>LISTen up! webinar</i>, Luxembourg Institute of Science and Technology, Belval, Luxembourg.</br>
+      <a href="https://downloads.erikproper.eu/presentations/20200714_listenup_dm.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/presentations/20200714_listenup_dm.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/videos/20200714_listenup_dm.mp4" target=_new><img src="MP4.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      2020.07.09, <i>Enterprise Systems Architectures - Essentials</i>, delivered at the <i>International Joint Conference on e-Business and Telecommunications (ICETE)</i>, Lieusaint, Paris, France.</br>
+      <a href="https://downloads.erikproper.eu/presentations/proper2020enterprisesystemsarchitecture.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/presentations/proper2020enterprisesystemsarchitecture.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      2020.04.23, <i>Enterprise Systems Architectures - Essentials</i>, guest lecture at the <i>LISTen up! webinar</i>, Luxembourg Institute of Science and Technology, Belval, Luxembourg.</br>
+      <a href="https://downloads.erikproper.eu/presentations/20200423_listenup_esa.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/presentations/20200423_listenup_esa.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/videos/20200423_listenup_esa.mp4" target=_new><img src="MP4.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      2019.11.27, <i>Towards key principles for teaching enterprise modelling</i>, presented at the <i>workshop on Teaching and Learning Conceptual Modelling (TLCM 2019)</i>, Luxembourg, Luxembourg.</br>
+      <a href="https://downloads.erikproper.eu/presentations/20191127_tlcm.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/presentations/20191127_tlcm.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      2019, <i>Grounded Enterprise Modelling</i>, guest lecture at the <i>NEMO Summer School</i>, Vienna University, Austria.</br>
+      <a href="https://downloads.erikproper.eu/presentations/36f5581cd5559f148cb9194fb8e33e76.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2019, <i>Fundamental challenges in systems modelling</i>, guest lecture at the <i>University of St. Gallen</i>, Switzerland.</br>
+      <a href="https://downloads.erikproper.eu/presentations/b0d5d698a86932f065d2a9383a67680f.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2019, <i>Enterprise modelling in the digital age: Challenges and opportunities</i>, delivered at the <i>SoEA4EE workshop at the IEEE EDOC conference</i>, Paris, France.</br>
+      <a href="https://downloads.erikproper.eu/presentations/45afbd7c2281744aa1f63cfb6cd477f0.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2018.10.31, <i>Towards a multi-stage strategy to teach enterprise modelling</i>, presented at the <i>Workshop for Teaching and Learning Conceptual Modelling (TLCM)</i>, Vienna, Austria.</br>
+      <a href="https://downloads.erikproper.eu/presentations/20181031_tlcm.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/presentations/20181031_tlcm.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      2018, <i>Towards grounded enterprise modelling</i>, guest lecture at the <i>University of Bozen/Bolzano</i>, Italy.</br>
+      <a href="https://downloads.erikproper.eu/presentations/baf0cef458f23787951813769fe2034a.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2018, <i>Grounded Enterprise Modelling</i>, guest lecture at the <i>NEMO Summer School</i>, Vienna University, Austria.</br>
+      <a href="https://downloads.erikproper.eu/presentations/36f5581cd5559f148cb9194fb8e33e76.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2017, <i>Grounded Enterprise Modelling</i>, guest lecture at the <i>NEMO Summer School</i>, Vienna University, Austria.</br>
+      <a href="https://downloads.erikproper.eu/presentations/36f5581cd5559f148cb9194fb8e33e76.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2017, <i>Enterprise Engineering - Scope &amp; Challenges</i>, guest lecture at the <i>Higer School of Economics</i>, Nizhny Novgorod, Russia.</br>
+      <a href="https://downloads.erikproper.eu/presentations/ffd2ebcc05241f5fef91bfd9b7c764cf.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2017, <i>EA in 60 minutes</i>, guest lecture at the <i>Allianz</i>, M&uuml;nchen, Germany.</br>
+      <a href="https://downloads.erikproper.eu/presentations/a73f07d7f2ad5d402d430538eb1e3a8f.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2017, <i>Subject-oriented Modelling for Smart Systems</i>, delivered at the <i>S-BPM ONE</i>, Darmstadt, Germany.</br>
+      <a href="https://downloads.erikproper.eu/presentations/893c3b13d5cf3f5a04c3a345f2513ef6.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2017, <i>Organisational Design &amp; Enterprise Engineering: Two sides of the same coin?</i>, delivered at the <i>Innovations in Software Engineering Conference (ISEC)</i>, Jaipur, India.</br>
+      <a href="https://downloads.erikproper.eu/presentations/38bc4c83de43431910de07311aa039ea.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2017, <i>Integrated Modelling Landscapes: What is realistic?</i>, delivered at the <i>Modelling Symposium (ModSym)</i>, Jaipur, India.</br>
+      <a href="https://downloads.erikproper.eu/presentations/994ccaa7140b1e2f666c5d63c76eecee.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2015, <i>SmartChange for Organisations in Motion</i>, guest lecture at the <i>Utrecht University</i>, Utrecht, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/c54ef7bf041887f682b75cc74aa804cc.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2015, <i>Model-enabled design in organisations</i>, guest lecture at the <i>National University of Singapore</i>, Singapore.</br>
+      <a href="https://downloads.erikproper.eu/presentations/531f9f617a4faa6531be5eb5ca4d207d.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2015, <i>Model-enabled design in organisations</i>, delivered at the <i>INFORSID</i>, Biaritz, France.</br>
+      <a href="https://downloads.erikproper.eu/presentations/531f9f617a4faa6531be5eb5ca4d207d.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2015, <i>Enterprise Engineering - Informed steering of enterprises in motion</i>, delivered at the <i>Annual Conference of the Associa&ccedil;&atilde;o Portuguesa de Sistemas de Informa&ccedil;&atilde;o (CAPSI)</i>, Lisbon, Portugal.</br>
+      <a href="https://downloads.erikproper.eu/presentations/6d91e160e46e6b33b17ff58348d52c6d.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2014, <i>Informed steering of enterprises in motion</i>, guest lecture at the <i>CNAM</i>, Paris, France.</br>
+      <a href="https://downloads.erikproper.eu/presentations/a0fe587d7a163de339327da5d208280c.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2014, <i>Enterprise Architecture - Informed steering of enterprises in motion</i>, guest lecture at the <i>University of Jyv&auml;skyl&auml;</i>, Helsinki, Finland.</br>
+      <a href="https://downloads.erikproper.eu/presentations/7850998c39255be96ec04bc7d9bdd1b7.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2014, <i>Understanding EE modelling-landscapes</i>, delivered at the <i>Business Modelling and Software Design (BMSD)</i>, Kirchberg, Luxembourg.</br>
+      <a href="https://downloads.erikproper.eu/presentations/d34b7d939c0b1e63e3133ee2b27b13cf.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2014, <i>Enterprise Architecture and Process Improvement; How one may learn from the other</i>, delivered at the <i>EuroSPI</i>, Kirchberg, Luzembourg.</br>
+      <a href="https://downloads.erikproper.eu/presentations/a62f6b8f647143ce9a8288e2c91db3f8.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2013.07.06, <i>Enterprise Service Innovation</i>, delivered at the <i>International Conference on Enterprise Information Systems (ICEIS)</i>, Angers, France.</br>
+      <a href="https://downloads.erikproper.eu/presentations/20130706_iceis.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/presentations/20130706_iceis.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://vimeo.com/70541242" target=_new><img src="MP4.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      2012, <i>Architecture-based Service Innovation</i>, guest lecture at the <i>Queensland University of Technology</i>, Brisbane, Australia.</br>
+      <a href="https://downloads.erikproper.eu/presentations/f31fbdad3a485143cfb11b64994b91b0.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2012, <i>Enterprise Service Innovation</i>, delivered at the <i>IBM Big Data Analytics Day</i>, Frankfurt, Germany.</br>
+      <a href="https://downloads.erikproper.eu/presentations/04c8679478a77e058c2a6ea4e5192e61.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2012, <i>Enterprise Architecture - A guided tour between theory and practice</i>, delivered at the <i>Enterprise Architecture Symposium</i>, Stockholm, Sweden.</br>
+      <a href="https://downloads.erikproper.eu/presentations/e288f870982c172419c716842529cbc2.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2012, <i>Engineering &amp; Emergence in Enterprises - A story of 4 Es</i>, delivered at the <i>Enterprise Engineering Working Conference (EEWC)</i>, Kirchberg, Luxembourg.</br>
+      <a href="https://downloads.erikproper.eu/presentations/4afc1ce9c39e60db689e6ff151b47498.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2011, <i>Enterprise Architecture: A means for Informed Governance of Enterprise Transformations</i>, guest lecture at the <i>BGL</i>, Kirchberg, Luxembourg.</br>
+      <a href="https://downloads.erikproper.eu/presentations/5b1f4738734170d06fbb0c6b1a05e1db.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2011, <i>Architecture Principles - The Cornerstone of Enterprise Architecture</i>, guest lecture at the <i>Capgemini</i>, Utrecht, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/bcd84bcfbc3967b101e4da0435f6249f.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2011, <i>Architecture Modelling: Why, What, How</i>, guest lecture at the <i>SAP Netherlands</i>, Den Bosch, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/91c9bc7e6a1734ae09aa7dfa51c0781d.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2011, <i>Architecture Modelling: Why, What, How</i>, guest lecture at the <i>Club Urba</i>, Paris, France.</br>
+      <a href="https://downloads.erikproper.eu/presentations/91c9bc7e6a1734ae09aa7dfa51c0781d.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2011, <i>Principles in an Enterprise Architecture Context</i>, delivered at the <i>The Open Group Conference</i>, Amsterdam, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/b480c3fa25efd46df530d63b22931d5c.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2010, <i>Enterprise Architecture - Creating value by informed governance</i>, guest lecture at the <i>IDC</i>, Lisbon, Portugal.</br>
+      <a href="https://downloads.erikproper.eu/presentations/5d398d5b8b830afa0cd9c8c43d03387a.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2010, <i>Architecture-based Service Innovation in Networked Enterprises</i>, guest lecture at the <i>Karlsruhe Institute of Technology (KIT)</i>, Karlsruhe, Germany.</br>
+      <a href="https://downloads.erikproper.eu/presentations/e8de8210a9337d62e1b43ad3f5feacc3.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2010, <i>Architectures for Service Innovation</i>, delivered at the <i>The Open Group Conference</i>, Rome, Italy.</br>
+      <a href="https://downloads.erikproper.eu/presentations/39493112ea5eeff15deafb3d9d38b36c.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2009, <i>Information Architecture</i>, guest lecture at the <i>HAN University of Applied Sciences</i>, Arnhem, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/13293c485fb591732e5219522dc24b41.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2009, <i>Enterprise Architecture - A guided tour between theory and practice</i>, guest lecture at the <i>Ahold</i>, Amsterdam, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/e288f870982c172419c716842529cbc2.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2009, <i>Architectuur in de Digitale Wereld</i>, guest lecture at the <i>HU University of Applied Sciences</i>, Utrecht, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/62c8cf379cceb2170e3ee201620b8e5a.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2009, <i>Architecture as a means for Informed Governance</i>, guest lecture at the <i>NAF Insights</i>, Zeist, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/a1db802a8d5c3c7c3d675601a59f9341.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2009, <i>DEMO en Archimate</i>, delivered at the <i>EAM Congres</i>, Zeist, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/523b38112c14c95276a781aaab844ed1.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2009, <i>Clouds in an architecture perspective</i>, delivered at the <i>CIO Network</i>, Utrecht, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/02b6946c7332c1480c1ecb82382cd5a3.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2009, <i>Business Rules &amp; Enterprise Modelling</i>, delivered at the <i>Business Rules Conferemce</i>, Utrecht, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/a50026ef01f07950c356bde7c357ca79.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2008, <i>Business rules &amp; architecture principles: Common roots; yet differing roles</i>, guest lecture at the <i>Radboud University</i>, Nijmegen, the Netherlands, Caput College.</br>
+      <a href="https://downloads.erikproper.eu/presentations/fd944e63babf8dcdf071ca519400f71b.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2008, <i>Quality in Model-driven</i>, delivered at the <i>VVSS</i>, Eindhoven, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/cba665f400458809205f3e1d75909ff1.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2006, <i>What is SoA?</i>, delivered at the <i>EuroForum 2006</i>, Utrecht, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/59448f70665dbedc9df69d8ed1eb9556.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2005, <i>The act of modeling: Context and understanding</i>, guest lecture at the <i>University of Duisburg-Essen</i>, Duisburg, Germany.</br>
+      <a href="https://downloads.erikproper.eu/presentations/aa582f2b0f7e1640dbdb8277e52b405f.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2004, <i>Domain Modelling - Anchoring semantics in information systems engineering</i>, guest lecture at the <i>SIKS Doctoral School</i>, Vught, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/5fe4740d578e6dc276b3ce143e529083.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2004, <i>Informatiekunde; Exacte Vaagheid</i>, delivered at the <i>SIGCHI Dutch Chapter</i>, Utrecht, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/790ecb2039910eaa0c0c26983a482fd6.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2003, <i>Architecture-driven System Development - A system theory perspective</i>, guest lecture at the <i>SIKS Doctoral School</i>, Vught, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/7c640ad9a333b5ba32c24a5df6a3f897.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2003, <i>Sturen door Inzicht</i>, delivered at the <i>ICT Kenniscongres</i>, Den Haag, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/9639b715fa92592baef981efd6cb56c9.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2002, <i>Should we stop acting like control freaks?</i>, delivered at the <i>Dutch Component Based Development workshop</i>, Den Haag, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/f4189d27cfa68f139f7645446e130da8.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      </br>
+    </li>
+    <li>
+      2001.09.30, <i>ActorWeb - Towards a deeper understanding of system architectures</i>, delivered at the <i>ICT Kenniscongres</i>, Den Haag, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/proper2001actorwebdeep.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/presentations/proper2001actorwebdeep.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+    <li>
+      2001.06.30, <i>ActorWeb - Unfolding the design spectrum</i>, presented at the <i>Ordina Institute</i>, Gouda, the Netherlands.</br>
+      <a href="https://downloads.erikproper.eu/presentations/proper2001actorweb.bib" target=_new><img src="BIB.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+      <a href="https://downloads.erikproper.eu/presentations/proper2001actorweb.pdf" target=_new><img src="PDF.jpg" height="15px" style="padding: 6px 0px 8px 0px"/></a>
+    </li>
+  </ul>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
+
